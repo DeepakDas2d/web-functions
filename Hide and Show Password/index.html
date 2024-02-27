@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Login Form</h2>
+      <form action="#" method="post">
+        <input type="text" name="username" placeholder="Username" required />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          id="password"
+          required
+        />
+        <input
+          type="checkbox"
+          name="show-password"
+          id="show-password"
+          onclick="toogleShowPassword()"
+        />
+        <label for="show-password">Show Password</label>
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
